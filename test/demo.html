@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <title>clipboard demo</title>
+    <script src="../lib/clipboard.js"></script>
+  </head>
+  <body>
+    <button onclick="copy()">点我啊</button>
+    <script>
+      function copy() {
+        const result = window.clipboard('hello world');
+        console.log(`copy ${result}`);
+      };
+    </script>
+  </body>
+</html>
+
