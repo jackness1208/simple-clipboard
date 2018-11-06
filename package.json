@@ -1,8 +1,8 @@
 {
   "name": "simple-clipboard",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "",
-  "main": "index.js",
+  "main": "lib/clipboard.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
