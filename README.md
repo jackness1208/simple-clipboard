@@ -1,5 +1,10 @@
 # simple-clipboard
 
+## 安装
+```
+npm install simple-clipboard --save
+```
+
 ## api
 ```
 import clipboard from 'simple-clipboard';
